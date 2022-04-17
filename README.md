@@ -17,7 +17,9 @@
 </html>
 ```
 
-### 2. **[Bootstrap framework](https://getbootstrap.com/)**, boostrap sendiri merupakan website open source yang didalam nya terdapat file css,js tapi saya memilih menggunakan link
+### 2. Getstart
+
+**[Bootstrap framework](https://getbootstrap.com/)**, boostrap sendiri merupakan website open source yang didalam nya terdapat file css,js tapi saya memilih menggunakan link
 
 ```html
 <head>
@@ -28,6 +30,8 @@
 </head>
 <!-- LAYOUT SEDERHANA BOOTSTRAP FRAMEWORK -->
 <body>
+
+
     <!-- GETSTART Bootstrap js framework -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -43,3 +47,17 @@
 
 </html>
 ```
+
+### 3. NavBar
+
+```html
+<!--Navbar-->
+<nav>
+  <a href="index.html" class="active">Home</a>
+  <a href="#">Artikel</a>
+  <a href="#">About</a>
+  <a href="#">Kontak</a>
+</nav>
+<!--End nav bar-->
+```
+![navbar](asset/img/Nav.png)
