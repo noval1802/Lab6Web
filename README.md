@@ -19,29 +19,23 @@
 
 ### 2. Getstart
 
-**[Bootstrap framework](https://getbootstrap.com/)**, boostrap sendiri merupakan website open source yang didalam nya terdapat file css,js tapi saya memilih menggunakan link
+**[Bootstrap framework](https://getbootstrap.com/)**, boostrap sendiri merupakan website open source yang didalam nya terdapat file css,js berikut file yang saya gunakan.
 
 ```html
 <head>
     <!-- GETSTART Bootstrap css framework -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="asset/bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <!-- End Bootstrap css framework -->
 </head>
 <!-- LAYOUT SEDERHANA BOOTSTRAP FRAMEWORK -->
 <body>
 
-
     <!-- GETSTART Bootstrap js framework -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+    <script src="asset/bootstrap/js/bootstrap.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
         <!-- End Bootstrap js framework -->
 </body>
 
@@ -60,4 +54,140 @@
 </nav>
 <!--End nav bar-->
 ```
+
 ![navbar](asset/img/Nav.png)
+
+### 4. Hero selection
+
+```html
+<!--Hero selection-->
+<section id="hero">
+  <h1>HELLO WORLD</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+    elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo
+    fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc,
+    nec pretium nunc pretium ac.
+  </p>
+  <a href="index.html" class="btn btn-large">Learn more &raquo;</a>
+</section>
+<!--End hero selection-->
+```
+
+![hero](asset/img/hero.png)
+
+### 5. Cards
+
+Untuk membuat body konten, saya menggunakan cards.
+
+```html
+<section id="wrapper">
+  <section id="main">
+    <div class="row">
+      <div class="box">
+        <img
+          src="https://dummyimage.com/120/db7d25/fff.png"
+          alt=""
+          class="image-circle"
+        />
+        <h3>Heading</h3>
+        <p>
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+        </p>
+        <a href="#" class="btn btn-default">View detail</a>
+      </div>
+      <div class="box">
+        <img
+          src="https://dummyimage.com/120/3e73e6/fff.png"
+          alt=""
+          class="image-circle"
+        />
+        <h3>Heading</h3>
+        <p>
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+        </p>
+        <a href="#" class="btn btn-default">View detail</a>
+      </div>
+      <div class="box">
+        <img
+          src="https://dummyimage.com/120/71e6d4/fff.png"
+          alt=""
+          class="image-circle"
+        />
+        <h3>Heading</h3>
+        <p>
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+        </p>
+        <a href="#" class="btn btn-default">View detail</a>
+      </div>
+    </div>
+  </section>
+</section>
+```
+
+![cards](asset/img/heading.png)
+
+### 6. List Group
+
+```html
+<aside id="sidebar">
+  <div class="widget-box">
+    <h3 class="title">Widget Header</h3>
+    <ul>
+      <li><a href="#">Widget Link</a></li>
+      <li><a href="#">Widget Link</a></li>
+      <li><a href="#">Widget Link</a></li>
+      <li><a href="#">Widget Link</a></li>
+      <li><a href="#">Widget Link</a></li>
+    </ul>
+  </div>
+  <div class="widget-box">
+    <h3 class="title">Widget Text</h3>
+    <p>
+      Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu.
+      Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+      pharetra est nunc, nec pretium nunc pretium ac.
+    </p>
+  </div>
+</aside>
+```
+![list](asset/img/list.png)
+
+### 7. Article
+
+```html
+<div>
+  <hr class="divider" />
+  <article class="entry">
+    <h2>First featurette heading.</h2>
+    <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+      elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo
+      fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc,
+      nec pretium nunc pretium ac.
+    </p>
+  </article>
+  <hr class="divider" />
+  <article class="entry">
+    <h2>First featurette heading.</h2>
+    <img
+      src="https://dummyimage.com/150/7b8a70/fff.png"
+      alt=""
+      class="right-img"
+    />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+      elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo
+      fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc,
+      nec pretium nunc pretium ac.
+    </p>
+  </article>
+  <hr class="divider" />
+</div>
+```
+
+![cards2](asset/img/cards2.png)
+
+### 8. Footer 
+![end](asset/img/End.png)
