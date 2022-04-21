@@ -151,6 +151,7 @@ Untuk membuat body konten, saya menggunakan cards.
   </div>
 </aside>
 ```
+
 ![list](asset/img/list.png)
 
 ### 7. Article
@@ -189,5 +190,14 @@ Untuk membuat body konten, saya menggunakan cards.
 
 ![cards2](asset/img/cards2.png)
 
-### 8. Footer 
+### 8. Footer
+
+```html
+<!--footer-->
+<footer>
+  <p>&copy; 2022 - Universitas Pelita Bangsa</p>
+</footer>
+<!--end footer-->
+```
+
 ![end](asset/img/End.png)
